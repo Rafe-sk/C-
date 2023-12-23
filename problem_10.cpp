@@ -3,15 +3,17 @@
 using namespace std;
 int main()
 {
-    float area, base, height;
+    float base, height, area;   //using float for decimal value.
 
     cout << "Enter base ";
     cin >> base;
 
-    cout << "Enter height";
+    cout << "Enter height ";
     cin >> height;
 
     area = 0.5 * base * height;
 
-    cout << "Area of triangle = " << area << endl;
+    cout << "Area of triangle is " << area << endl;
+
+    return 0;
 }
