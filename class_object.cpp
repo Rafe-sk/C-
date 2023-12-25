@@ -11,7 +11,7 @@ private:
     int marks;
 
 public:
-    void getData(string cn, string rn, string n, int m)
+    void setData(string cn, string rn, string n, int m)
     {
         collegename = cn;
         rollno = rn;
@@ -31,8 +31,8 @@ public:
 int main()
 {
     Student s1, s2;
-    s1.getData();
+    s1.setData("ITM", "ITM001", "XYZ", 78);
     s1.displayData();
-    s2.getData();
+    s2.setData("ITM", "ITM002", "ABC", 79);
     s2.displayData();
 }
